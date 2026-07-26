@@ -28,6 +28,12 @@
 - Tổng quan tủ đồ: Hiển thị số lượng vật phẩm đang có, phân bổ theo từng khu vực (Bếp, Nhà tắm, Chung).
 - Báo cáo lãng phí hàng tháng: Thống kê số món đồ đã bị vứt đi do hết hạn hoặc không dùng đến, ước tính tổng thiệt hại (VNĐ).
 - Lịch sử sử dụng: Danh sách các vật phẩm đã dùng hết, kèm ngày xuất kho và thời gian tồn tại trong tủ đồ.
+## Yêu cầu phi chức năng
+- Dữ liệu được lưu sau khi tắt ứng dụng
+- Giao diện đơn giản, thân thiện, dễ sử dụng
+- Hệ thống hoạt động ổn định, hạn chế tối đa lỗi phát sinh
+- Thời gian phản hồi khi quét mã vạch ≤ 1 giây. Thời gian tải danh sách tủ đồ (≤ 500 vật phẩm) ≤ 0.5 giây.
+- Dữ liệu người dùng được lưu trữ cục bộ, không tự động gửi lên máy chủ bên ngoài.
 # Công nghệ dự kiến sử dụng
 - Cơ sở dữ liệu: SQL Server
 - Công cụ quản lí: Git, Github
