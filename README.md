@@ -10,6 +10,9 @@
 - [Hoàng Thị Hiếu]
 - [Nguyễn Viết Huy]
 ## Các chức năng chính
+### Đăng nhập, đăng kí
+- Đăng ký/đăng nhập bằng Google, xác thực OTP qua email/SĐT
+- Đổi mật khẩu, đăng xuất
 ### Quản lý tủ đồ
 - Nhập kho thủ công: Người dùng tự nhập tên, số lượng, khu vực lưu trữ, hạn sử dụng (nếu có), ghi chú.
 - Nhập kho bằng mã vạch: Quét mã vạch sản phẩm, hệ thống tự động điền tên sản phẩm (nếu có trong cơ sở dữ liệu), người dùng xác nhận và nhập kho.
@@ -19,7 +22,6 @@
 ### Kiểm tra trước khi mua
 - Tìm kiếm thủ công: Người dùng mở Tủ đồ, sử dụng thanh tìm kiếm để tra cứu tên vật phẩm.
 - Quét nhanh (Check): Người dùng chọn nút Check, camera bật lên, quét mã vạch sản phẩm tại siêu thị.
-- Lịch sử kiểm tra: Lưu lại các lần quét gần nhất để người dùng xem lại nhanh.
 ### Danh sách cần mua
 - Thêm thủ công: Người dùng tự thêm món đồ và số lượng cần mua vào danh sách
 - Đánh dấu đã mua: Người dùng tích vào checkbox khi đã mua, món đồ tự động chuyển vào Tủ đồ (Nhập kho) với số lượng tương ứng.
@@ -27,7 +29,6 @@
 ### Báo cáo & Thống kê
 - Tổng quan tủ đồ: Hiển thị số lượng vật phẩm đang có, phân bổ theo từng khu vực (Bếp, Nhà tắm, Chung).
 - Báo cáo lãng phí hàng tháng: Thống kê số món đồ đã bị vứt đi do hết hạn hoặc không dùng đến, ước tính tổng thiệt hại (VNĐ).
-- Lịch sử sử dụng: Danh sách các vật phẩm đã dùng hết, kèm ngày xuất kho và thời gian tồn tại trong tủ đồ.
 ## Yêu cầu phi chức năng
 - Dữ liệu được lưu sau khi tắt ứng dụng
 - Giao diện đơn giản, thân thiện, dễ sử dụng
