@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #b3cee5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px 0;
+}
+
+.login-box {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 420px;
+    padding: 35px 35px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(65, 93, 136, 0.15);
+}
+
+.hidden {
+    display: none !important;
+}
+
+.login-box h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #415d86;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.login-box label {
+    display: block;
+    color: #415d86;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 6px;
+    margin-left: 12px;
+}
+
+.login-box input {
+    width: 100%;
+    height: 44px;
+    background-color: #d0e4f5;
+    border: none;
+    border-radius: 22px;
+    padding: 0 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #415d86;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.login-box input:focus {
+    background-color: #c0daf0;
+    box-shadow: 0 0 0 2px #b3cee5;
+}
+
+.btn-primary {
+    width: 80%;
+    display: block;
+    margin: 25px auto 15px auto;
+    height: 46px;
+    background-color: #f7cac9;
+    color: #415d86;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+    border-radius: 23px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #f3b3b9;
+}
+
+.extra-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.sub-text {
+    color: #415d86;
+    font-size: 13px;
+}
+
+.forgot-pass {
+    color: #415d86;
+    text-decoration: underline;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn-google {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #415d86;
+    text-decoration: underline;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.switch-form-text {
+    color: #415d86;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.switch-form-text a {
+    color: #415d86;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.btn-google:hover, .forgot-pass:hover, .switch-form-text a:hover {
+    opacity: 0.8;
+}
